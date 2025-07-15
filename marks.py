@@ -10,7 +10,6 @@ def update_score(name, score):
         students_scores[name] = score
     else:
         print(f"Student {name} not found.")
-
 def delete_student(name):
     if name in students_scores:
         del students_scores[name]
