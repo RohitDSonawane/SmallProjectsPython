@@ -1,7 +1,3 @@
-# Create a dictionary to store student names and their corresponding
-# scores in a test. Write functions to add new students, update scores,
-# delete students, and find the student with the highest score.
-
 students_scores={}
 def add_student(name,score):
     students_scores[name]=score
